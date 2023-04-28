@@ -7,9 +7,9 @@ export default class Plan {
 		return this.semanas * this.dias;
 	}
 	mostrarSemanas() {
-		console.log(`Semanas: ${this.semanas}`);
+		return `Semanas: ${this.semanas}`;
 	}
 	mostrarDias() {
-		console.log(`Días: ${this.dias}`);
+		return `Días: ${this.dias}`;
 	}
 }

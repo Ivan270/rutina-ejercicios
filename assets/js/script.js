@@ -15,8 +15,8 @@ const procesaData = (plan) => {
 			num++;
 		}
 	};
-	plan.mostrarSemanas();
-	plan.mostrarDias();
+	console.log(plan.mostrarSemanas());
+	console.log(plan.mostrarDias());
 	mostrarConsoles();
 };
 
