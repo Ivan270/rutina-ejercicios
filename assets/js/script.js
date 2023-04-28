@@ -3,11 +3,11 @@ import generadorEjercicios from './funciones/generadorEjercicios.js';
 
 let form = document.getElementById('inputUser');
 
-let procesaData = (plan) => {
+const procesaData = (plan) => {
 	let planEjercicios = generadorEjercicios(plan.totalDias());
 	const diasPlan = planEjercicios;
 
-	let mostrarConsoles = () => {
+	const mostrarConsoles = () => {
 		let num = 1;
 		while (num <= plan.totalDias()) {
 			let mostrar = diasPlan.next().value;
